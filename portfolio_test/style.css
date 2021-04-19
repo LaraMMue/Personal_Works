@@ -56,7 +56,7 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: #10151a;
+  background-image: linear-gradient(-45deg, #191731 10%, #542a7e, #2aa3a3, #542a7e, #120e2e);
   color: white;
 }
 h1,h2,p{
@@ -189,7 +189,6 @@ img{
 .home{
   height: 100%;
   row-gap: 1rem;
-  margin-top: -100px;
 }
 .home__data{
   align-self: center;
