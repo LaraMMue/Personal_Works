@@ -246,9 +246,13 @@ img{
 }
 
 .video {
-  align-self: center;
+  display: block;
+  
   margin-top: 2rem;
-  margin-left: 20rem;
+  max-width: 100%;
+  height: auto;
+
+  
 }
 
 /* ===== MEDIA QUERIES=====*/
